@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Persediaan dan Penjualan</title>
+    <link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Persediaan dan Penjualan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo-undip.png" alt="Logo UNDIP" class="logo">
+            <h1>Aplikasi Persediaan dan Penjualan</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- Formulir Tambah Barang -->
+        <section class="inventory-section">
+            <h2>Persediaan Barang</h2>
+            <form id="add-item-form">
+                <label for="item-name">Nama Barang:</label>
+                <input type="text" id="item-name" placeholder="Masukkan nama barang" required>
+                
+                <label for="item-quantity">Jumlah Stok:</label>
+                <input type="number" id="item-quantity" placeholder="Masukkan jumlah stok" required>
+                
+                <button type="submit">Tambah Barang</button>
+            </form>
+            <div id="inventory-list">
+                <!-- Daftar barang akan ditampilkan di sini -->
+            </div>
+        </section>
+
+        <!-- Formulir Jual Barang -->
+        <section class="sales-section">
+            <h2>Penjualan</h2>
+            <form id="sell-item-form">
+                <label for="sell-item-id">ID Barang:</label>
+                <input type="number" id="sell-item-id" placeholder="Masukkan ID barang" required>
+                
+                <label for="sell-quantity">Jumlah Dijual:</label>
+                <input type="number" id="sell-quantity" placeholder="Masukkan jumlah dijual" required>
+                
+                <button type="submit">Jual Barang</button>
+            </form>
+            <div id="sales-list">
+                <!-- Daftar penjualan akan ditampilkan di sini -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Aplikasi Persediaan dan Penjualan | Universitas Diponegoro</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
