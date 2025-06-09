@@ -1,0 +1,6 @@
+inventory_id,product_id,product_name,warehouse_id,stock_quantity,last_updated
+INV001,P001,Laptop,WH001,120,2025-03-05
+INV002,P002,Smartphone,WH001,300,2025-03-05
+INV003,P003,Tablet,WH002,60,2025-03-05
+INV004,P001,Laptop,WH002,30,2025-03-05
+INV005,P002,Smartphone,WH003,100,2025-03-05

@@ -1,0 +1,6 @@
+production_id,product_id,product_name,production_date,quantity_produced,production_cost
+PRD001,P001,Laptop,2025-01-10,100,500.00
+PRD002,P002,Smartphone,2025-01-15,200,300.00
+PRD003,P001,Laptop,2025-02-01,150,510.00
+PRD004,P003,Tablet,2025-02-10,80,250.00
+PRD005,P002,Smartphone,2025-03-01,250,295.00
